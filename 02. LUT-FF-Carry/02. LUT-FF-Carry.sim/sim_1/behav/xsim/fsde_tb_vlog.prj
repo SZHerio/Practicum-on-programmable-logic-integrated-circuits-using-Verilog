@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../02. LUT-FF-Carry.srcs/sources_1/new/fdse.sv" \
+"../../../../02. LUT-FF-Carry.srcs/sim_1/new/fsde_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
