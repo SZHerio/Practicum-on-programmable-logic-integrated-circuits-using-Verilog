@@ -1,0 +1,69 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri May 22 02:26:59 2026
+# Process ID: 32896
+# Current directory: C:/Users/SZHerio/Desktop/Practicum-on-programmable-logic-integrated-circuits-using-Verilog/08. APB_CRC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13248 C:\Users\SZHerio\Desktop\Practicum-on-programmable-logic-integrated-circuits-using-Verilog\08. APB_CRC\08. APB_CRC.xpr
+# Log file: C:/Users/SZHerio/Desktop/Practicum-on-programmable-logic-integrated-circuits-using-Verilog/08. APB_CRC/vivado.log
+# Journal file: C:/Users/SZHerio/Desktop/Practicum-on-programmable-logic-integrated-circuits-using-Verilog/08. APB_CRC\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/SZHerio/Desktop/Practicum-on-programmable-logic-integrated-circuits-using-Verilog/08. APB_CRC/08. APB_CRC.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source wrapper_crc12_tb.tcl
+run 100000 ns
+close_sim
+launch_simulation
+source wrapper_crc12_tb.tcl
+close_sim
+export_ip_user_files -of_objects  [get_files {{C:/Users/SZHerio/Desktop/Practicum-on-programmable-logic-integrated-circuits-using-Verilog/08. APB_CRC/08. APB_CRC.srcs/sim_1/new/wrapper_crc12_tb.sv}}] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {{C:/Users/SZHerio/Desktop/Practicum-on-programmable-logic-integrated-circuits-using-Verilog/08. APB_CRC/08. APB_CRC.srcs/sim_1/new/wrapper_crc12_tb.sv}}
+remove_files  -fileset sim_1 {{C:/Users/SZHerio/Desktop/Practicum-on-programmable-logic-integrated-circuits-using-Verilog/08. APB_CRC/08. APB_CRC.srcs/sim_1/new/wrapper_crc12_tb.sv}}
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {C:/Users/SZHerio/Desktop/Practicum-on-programmable-logic-integrated-circuits-using-Verilog/08. APB_CRC/08. APB_CRC.srcs/sim_1/new/tb_wrapper_crc12.v} w ]
+add_files -fileset sim_1 {{C:/Users/SZHerio/Desktop/Practicum-on-programmable-logic-integrated-circuits-using-Verilog/08. APB_CRC/08. APB_CRC.srcs/sim_1/new/tb_wrapper_crc12.v}}
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_wrapper_crc12 [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+export_ip_user_files -of_objects  [get_files {{C:/Users/SZHerio/Desktop/Practicum-on-programmable-logic-integrated-circuits-using-Verilog/08. APB_CRC/08. APB_CRC.srcs/sim_1/new/tb_wrapper_crc12.v}}] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {{C:/Users/SZHerio/Desktop/Practicum-on-programmable-logic-integrated-circuits-using-Verilog/08. APB_CRC/08. APB_CRC.srcs/sim_1/new/tb_wrapper_crc12.v}}
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {C:/Users/SZHerio/Desktop/Practicum-on-programmable-logic-integrated-circuits-using-Verilog/08. APB_CRC/08. APB_CRC.srcs/sim_1/new/tb_wrapper_crc12.sv} w ]
+add_files -fileset sim_1 {{C:/Users/SZHerio/Desktop/Practicum-on-programmable-logic-integrated-circuits-using-Verilog/08. APB_CRC/08. APB_CRC.srcs/sim_1/new/tb_wrapper_crc12.sv}}
+launch_simulation
+source tb_wrapper_crc12.tcl
+run 100000 ns
+close_sim
+launch_simulation
+source tb_wrapper_crc12.tcl
+close_sim
+launch_simulation
+source tb_wrapper_crc12.tcl
+close_sim
+launch_simulation
+source tb_wrapper_crc12.tcl
+run 100000 ns
+restart
+run 100000 ns
+close_sim
+launch_simulation
+source tb_wrapper_crc12.tcl
+run 100000 ns
+restart
+run 100000 ns
+restart
+run 100000 ns
+close_sim
+launch_simulation
+source tb_wrapper_crc12.tcl
+restart
+run 100000 ns
+close_sim

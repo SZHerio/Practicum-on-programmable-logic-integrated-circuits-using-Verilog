@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri May 22 01:13:15 2026
+# Process ID: 19948
+# Current directory: C:/Users/SZHerio/Desktop/Practicum-on-programmable-logic-integrated-circuits-using-Verilog/08. APB_CRC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent34076 C:\Users\SZHerio\Desktop\Practicum-on-programmable-logic-integrated-circuits-using-Verilog\08. APB_CRC\08. APB_CRC.xpr
+# Log file: C:/Users/SZHerio/Desktop/Practicum-on-programmable-logic-integrated-circuits-using-Verilog/08. APB_CRC/vivado.log
+# Journal file: C:/Users/SZHerio/Desktop/Practicum-on-programmable-logic-integrated-circuits-using-Verilog/08. APB_CRC\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/SZHerio/Desktop/Practicum-on-programmable-logic-integrated-circuits-using-Verilog/08. APB_CRC/08. APB_CRC.xpr}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_wrapper_crc12.tcl
+run 1500 ns
+run 100000 ns
+run 100000 ns
+close_sim
+launch_simulation
+source tb_wrapper_crc12.tcl
+run all
+close_sim

@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../08. APB_CRC.srcs/sources_1/new/crc12.sv" \
+"../../../../08. APB_CRC.srcs/sources_1/new/wrapper_crc12.sv" \
+"../../../../08. APB_CRC.srcs/sim_1/new/wrapper_crc12_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

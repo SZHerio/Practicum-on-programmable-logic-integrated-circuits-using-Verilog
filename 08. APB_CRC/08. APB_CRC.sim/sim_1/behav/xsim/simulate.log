@@ -1,0 +1,13 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+(500000) Writing register [12] = 0x4, ready = 1, slverr = 0
+(500000) Writing register [12] = 0x4, ready = 1, slverr = 0
+(1100000) Reading register [12] = 0x4, ready = 1, slverr = 0
+(1700000) Reading register [8] = 0x0, ready = 1, slverr = 0
+(2300000) Writing register [0] = 0xbc, ready = 1, slverr = 0
+(3800000) Reading register [8] = 0x0, ready = 1, slverr = 0
+(4400000) Writing register [0] = 0x33, ready = 1, slverr = 0
+(5900000) Reading register [8] = 0x0, ready = 1, slverr = 0
+(6500000) Reading register [4] = 0x40a, ready = 1, slverr = 0
+(7300000) Reading register [4] = 0x0, ready = 1, slverr = 0
+$finish called at time : 7900 ns : File "C:/Users/SZHerio/Desktop/Practicum-on-programmable-logic-integrated-circuits-using-Verilog/08. APB_CRC/08. APB_CRC.srcs/sim_1/new/tb_wrapper_crc12.sv" Line 137

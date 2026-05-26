@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../06. AXI-Stream Valid Ready Credit Flow control.srcs/sources_1/new/task1.sv" \
+"../../../../06. AXI-Stream Valid Ready Credit Flow control.srcs/sim_1/new/task1_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

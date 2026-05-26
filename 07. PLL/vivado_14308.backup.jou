@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri May 22 00:50:34 2026
+# Process ID: 14308
+# Current directory: C:/Users/SZHerio/Desktop/Practicum-on-programmable-logic-integrated-circuits-using-Verilog/07. PLL
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13188 C:\Users\SZHerio\Desktop\Practicum-on-programmable-logic-integrated-circuits-using-Verilog\07. PLL\07. PLL.xpr
+# Log file: C:/Users/SZHerio/Desktop/Practicum-on-programmable-logic-integrated-circuits-using-Verilog/07. PLL/vivado.log
+# Journal file: C:/Users/SZHerio/Desktop/Practicum-on-programmable-logic-integrated-circuits-using-Verilog/07. PLL\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/SZHerio/Desktop/Practicum-on-programmable-logic-integrated-circuits-using-Verilog/07. PLL/07. PLL.xpr}
+update_compile_order -fileset sources_1
+launch_simulation -mode post-implementation -type timing
+source tb_task2.tcl
+run 1500 ns
+reset_run impl_1
+close_sim
+close_design
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_simulation -mode post-implementation -type timing
+source tb_task2.tcl
+run 1500 ns
+close_sim
+close_design
+reset_run impl_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_simulation -mode post-implementation -type timing

@@ -1,0 +1,3 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+$finish called at time : 150 ns : File "C:/Users/SZHerio/Desktop/Practicum-on-programmable-logic-integrated-circuits-using-Verilog/06. AXI-Stream Valid Ready Credit Flow control/06. AXI-Stream Valid Ready Credit Flow control.srcs/sim_1/new/task1_tb.sv" Line 99

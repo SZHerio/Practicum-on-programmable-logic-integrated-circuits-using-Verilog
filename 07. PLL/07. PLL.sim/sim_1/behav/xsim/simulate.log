@@ -1,0 +1,26 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+=== ЭТАП 1: Инициация передачи ===
+[OK] Сигнал busy успешно перешел в 1.
+=== ЭТАП 2: Попытка сломать данные во время busy ===
+Мусор 8'hFF и повторный req отправлены. Ждем ответа...
+[OK] Импульс dataB_valid пойман в 1!
+Error: [ПРОВАЛ] Данные искажены: 00. Мусор прошел!
+Time: 426650 ps  Iteration: 1  Process: /tb_task2/Initial34_8  File: C:/Users/SZHerio/Desktop/Practicum-on-programmable-logic-integrated-circuits-using-Verilog/07. PLL/07. PLL.srcs/sim_1/new/tb_task2.sv
+=== ЭТАП 3: Чистая передача вторых данных ===
+Error: [ОШИБКА] Пришли данные: ff
+Time: 743590 ps  Iteration: 1  Process: /tb_task2/Initial34_8  File: C:/Users/SZHerio/Desktop/Practicum-on-programmable-logic-integrated-circuits-using-Verilog/07. PLL/07. PLL.srcs/sim_1/new/tb_task2.sv
+=== Симуляция успешно завершена ===
+$finish called at time : 987390 ps : File "C:/Users/SZHerio/Desktop/Practicum-on-programmable-logic-integrated-circuits-using-Verilog/07. PLL/07. PLL.srcs/sim_1/new/tb_task2.sv" Line 95
+=== ЭТАП 1: Инициация передачи ===
+[OK] Сигнал busy успешно перешел в 1.
+=== ЭТАП 2: Попытка сломать данные во время busy ===
+Мусор 8'hFF и повторный req отправлены. Ждем ответа...
+[OK] Импульс dataB_valid пойман в 1!
+Error: [ПРОВАЛ] Данные искажены: 00. Мусор прошел!
+Time: 426650 ps  Iteration: 1  Process: /tb_task2/Initial34_8  File: C:/Users/SZHerio/Desktop/Practicum-on-programmable-logic-integrated-circuits-using-Verilog/07. PLL/07. PLL.srcs/sim_1/new/tb_task2.sv
+=== ЭТАП 3: Чистая передача вторых данных ===
+Error: [ОШИБКА] Пришли данные: ff
+Time: 743590 ps  Iteration: 1  Process: /tb_task2/Initial34_8  File: C:/Users/SZHerio/Desktop/Practicum-on-programmable-logic-integrated-circuits-using-Verilog/07. PLL/07. PLL.srcs/sim_1/new/tb_task2.sv
+=== Симуляция успешно завершена ===
+$finish called at time : 987390 ps : File "C:/Users/SZHerio/Desktop/Practicum-on-programmable-logic-integrated-circuits-using-Verilog/07. PLL/07. PLL.srcs/sim_1/new/tb_task2.sv" Line 95
